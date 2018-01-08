@@ -1,0 +1,83 @@
+ /*.container{
+se crean los medias query para "filtrar" la vista que se tendrá acorde a
+las capacidades del dispositivo empleado por el usuario*/
+
+ @media(max-width: 600px) {
+   .all {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+   }
+   .viewnight {
+     position: relative;
+     top: 0;
+     left: 0;
+   }
+   .catsmall {
+     position: absolute;
+     top: 30px;
+     left: 70px;
+   }
+   #dawn {
+     display: none;
+   }
+   #sunny {
+     display: none;
+   }
+ }
+
+ @media(min-width: 601px) and (max-width: 900px) {
+   .all {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 70vh;
+   }
+   .viewdawn {
+     position: relative;
+     top: 0;
+     left: 0;
+   }
+   .catmedium {
+     position: absolute;
+     top: 30px;
+     left: 70px;
+     padding-bottom: 0;
+   }
+   #night {
+     display: none;
+   }
+   #sunny {
+     display: none;
+   }
+ }
+
+ @media(min-width: 901px) {
+   .all {
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: ;
+   }
+   .viewsunny {
+     position: relative;
+     top: 0;
+     left: 0;
+   }
+   .catlarge {
+     position: absolute;
+     top: 40vh;
+     left: 40px;
+   }
+   #night {
+     display: none;
+   }
+   #dawn {
+     display: none;
+   }
+   /* disculpen los gatitos voladores,
+ escuche esa rola en una boda y me malinspiro LOL*/
